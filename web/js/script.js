@@ -79,7 +79,8 @@ document.addEventListener("DOMContentLoaded", function (e) {
         let toSymbol = currencySymbols[currencyTo];
 
         let exchangeResult = (toExchangeRate / fromExchangeRate) * valueFrom;
-        
+        exchangeResult = exchangeResult.toFixed(2);
+
         output.textContent = toSymbol + exchangeResult;
     }
 });
