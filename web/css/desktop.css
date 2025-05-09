@@ -68,6 +68,7 @@ footer {
     margin: 0 auto;
     padding: 0 10vw;
     /* width: 80vw; */
+    background-color: #1A1A1A;
 }
 
 #project {
@@ -199,6 +200,8 @@ footer {
 }
 
 #copyright {
+    margin: 0;
+    padding: 3vh 0;
     font-size: 1.5em;
     font-weight: 300;
     text-align: center;
