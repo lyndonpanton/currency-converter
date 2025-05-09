@@ -28,6 +28,7 @@
 <body>
     <header>
         <h1>Currency Converter</h1>
+        <!-- Add light/dark mode toggle -->
     </header>
 
     <main>
