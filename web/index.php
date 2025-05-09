@@ -29,13 +29,59 @@
     <main>
         <form action="#" id="converter">
             <select name="currency-from" id="currency-from">
-                
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="jpy">JPY</option>
+                <option value="gbp">GBP</option>
+                <option value="cny">CNY</option>
+                <option value="aud">AUD</option>
+                <option value="cad">CAD</option>
+                <option value="chf">CHF</option>
+                <option value="hkd">HKD</option>
+                <option value="sgp">SGD</option>
+                <option value="sek">SEK</option>
+                <option value="krw">KRW</option>
+                <option value="nok">NOK</option>
+                <option value="nzd">NZD</option>
+                <option value="inr">INR</option>
+                <option value="mxn">MXN</option>
+                <option value="twd">TWD</option>
+                <option value="zar">ZAR</option>
+                <option value="brl">BRL</option>
+                <option value="dkk">DKK</option>
+                <option value="pln">PLN</option>
+                <option value="thb">THB</option>
+                <option value="ils">ILS</option>
+                <option value="idr">IDR</option>
+                <option value="czk">CZK</option>
             </select>
 
             <input type="number" name="value-from" id="value-from" min="0" step="0.01"/>
 
             <select name="currency-to" id="currency-to">
-
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="jpy">JPY</option>
+                <option value="gbp">GBP</option>
+                <option value="cny">CNY</option>
+                <option value="aud">AUD</option>
+                <option value="cad">CAD</option>
+                <option value="chf">CHF</option>
+                <option value="hkd">HKD</option>
+                <option value="sgp">SGD</option>
+                <option value="sek">SEK</option>
+                <option value="krw">KRW</option>
+                <option value="nok">NOK</option>
+                <option value="nzd">NZD</option>
+                <option value="inr">INR</option>
+                <option value="mxn">MXN</option>
+                <option value="twd">TWD</option>
+                <option value="zar">ZAR</option>
+                <option value="brl">BRL</option>
+                <option value="dkk">DKK</option>
+                <option value="pln">PLN</option>
+                <option value="thb">THB</option>
+                <option value="ils">ILS</option>
             </select>
 
             <input type="submit" value="Convert" />
