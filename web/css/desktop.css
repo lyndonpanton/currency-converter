@@ -22,6 +22,7 @@ body, html {
 header {
     width: 100vw;
     height: 15vh;
+    padding: 5vh 0;
 }
 
 h1 {
@@ -65,27 +66,44 @@ main {
 /* Footer *********************************************************************/
 footer {
     margin: 0 auto;
-    width: 80vw;
+    padding: 0 10vw;
+    /* width: 80vw; */
 }
 
 #project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+    border-top: 1px solid #DADADA;
+    padding: 10vh 0;
 }
 
 .project-list {
-
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .project-list-item {
+    margin-bottom: 20px;
 
+    font-size: 1.3em;
 }
 
 .project-list-item > a {
+    color: #C9C9C9;
+    text-decoration: none;
+}
 
+.project-list-item > a:hover {
+    color: white;
 }
 
 .project-list-heading {
+    margin-bottom: 30px;
 
+    font-size: 1.5em;
 }
 
 #data {
