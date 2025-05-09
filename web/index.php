@@ -96,6 +96,8 @@
                     <option value="pln">PLN</option>
                     <option value="thb">THB</option>
                     <option value="ils">ILS</option>
+                    <option value="idr">IDR</option>
+                    <option value="czk">CZK</option>
                 </select>
 
                 <input type="submit" value="Convert" id="convert-button" />

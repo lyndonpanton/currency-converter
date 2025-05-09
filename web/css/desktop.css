@@ -63,8 +63,11 @@ main {
 
 /* Converter */
 #converter {
-    margin: 0 auto;
+    margin: 12vh 5vw 0;
     border-radius: 20px;
+    height: 30vh;
+
+    background-color: white;
 
     text-align: center;
 }
