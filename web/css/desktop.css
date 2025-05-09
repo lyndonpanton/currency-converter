@@ -69,11 +69,20 @@ main {
 
     background-color: white;
 
+    color: black;
     text-align: center;
 }
 
 #value-from {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
 
+#value-from::-webkit-outer-spin-button, #value-from::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #currency-from {
