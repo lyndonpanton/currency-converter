@@ -89,7 +89,22 @@ footer {
 }
 
 #data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+    border-top: 1px solid #DADADA;
+    padding: 2vh 0;
+}
+
+#data > ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 1vh 0 0 0;
+
+    list-style-type: none;
 }
 
 #data-legal {
@@ -97,11 +112,19 @@ footer {
 }
 
 #data-legal > li {
+    margin-right: 2vw;
 
+    font-size: 1.2em;
+    font-weight: 200;
 }
 
 #data-legal > li > a {
-    
+    color: #C9C9C9;
+    text-decoration: none;
+}
+
+#data-legal > li > a:hover {
+    color: white;
 }
 
 #data-social {
@@ -109,11 +132,52 @@ footer {
 }
 
 #data-social > li {
+    margin-left: 2vw;
 
+    font-size: 1.8em;
 }
 
-#data-social > li > a {
+#data-social > li > a > .fa-facebook {
+    color: #C9C9C9;
 
+    transition: color 0.5s linear;
+}
+
+#data-social > li > a > .fa-facebook:hover {
+    color: #1877F2;
+    
+    transition: color 0.5s linear;
+}
+
+#data-social > li > a > .fa-instagram {
+    background-clip: text;
+    background-image: linear-gradient(#C9C9C9, #C9C9C9);
+    color: #C9C9C9;
+
+    transition: background-image 0.5s linear;
+}
+
+#data-social > li > a > .fa-instagram:hover {
+    background-clip: text;
+    background-image: linear-gradient(
+        #405DE6, #5851DB, #833AB4, #C13584, #E1306C,
+        #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80
+    );
+    color: transparent;
+
+    transition: all 0.5s linear;
+}
+
+#data-social > li > a > .fa-twitter {
+    color: #C9C9C9;
+
+    transition: color 0.5s linear;
+}
+
+#data-social > li > a > .fa-twitter:hover {
+    color: #1DA1F2;
+    
+    transition: color 0.5s linear;
 }
 
 #copyright {
