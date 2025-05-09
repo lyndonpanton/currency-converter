@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
             user-scalable=true, minimum-scale=0.25, maximum-scale=4.0" />
 
-    <!-- <link rel="icon" type="image/x-icon" href="" />/ -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <title>Currency Converter</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
