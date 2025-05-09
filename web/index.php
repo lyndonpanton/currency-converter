@@ -87,7 +87,7 @@
             <input type="submit" value="Convert" />
         </form>
 
-        <p id="value-to"></p>
+        <p id="value-to">---</p>
     </main>
 
     <footer>

@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
             "czk": 30.4244
     };
 
+    let output = document.getElementById("value-to");
     let converter = document.getElementById("converter");
     converter.addEventListener("submit", handleSubmission);
 
@@ -49,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         let toExchangeRate = gbpExchangeRates[currencyTo];
 
         let exchangeResult = (toExchangeRate / fromExchangeRate) * valueFrom;
-        console.log(exchangeResult);
+        // Append relevant symbol
+        output.textContent = exchangeResult;
     }
 });
