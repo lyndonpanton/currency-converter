@@ -27,7 +27,21 @@
     </header>
 
     <main>
+        <form action="#" id="converter">
+            <select name="currency-from" id="currency-from">
+                
+            </select>
 
+            <input type="number" name="value-from" id="value-from" min="0" step="0.01"/>
+
+            <select name="currency-to" id="currency-to">
+
+            </select>
+
+            <input type="submit" value="Convert" />
+        </form>
+
+        <p id="value-to"></p>
     </main>
 
     <footer>
