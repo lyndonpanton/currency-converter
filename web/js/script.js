@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
     }
 
     let output = document.getElementById("value-to");
-    let converter = document.getElementById("converter");
+    let converter = document.getElementById("converter-form");
     converter.addEventListener("submit", handleSubmission);
 
     function handleSubmission(e) {

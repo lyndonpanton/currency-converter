@@ -21,26 +21,52 @@ body, html {
 /* Header *********************************************************************/
 header {
     width: 100vw;
-    height: 15vh;
-    padding: 5vh 0;
+    height: 10vh;
+    padding: 3vh 0;
+
+    background-color: #111111;
 }
 
 h1 {
     margin: 0;
+    padding: 0 10vw;
     text-align: center;
 
-    font-size: 4em;
+    font-size: 3em;
 }
 
 /* Main *********************************************************************/
 main {
     margin: 0 auto;
     width: 80vw;
-    height: 85vh;
+    height: 90vh;
 }
 
-#converter {
+/* Description */
+#description {
+    text-align: center;
+}
 
+#description-main {
+    margin: 3vh 0 2vh;
+
+    font-size: 2em;
+}
+
+#description-sub {
+    margin: 2vh 0 3vh;
+
+    color: #CACACA;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Converter */
+#converter {
+    margin: 0 auto;
+    border-radius: 20px;
+
+    text-align: center;
 }
 
 #value-from {
@@ -68,7 +94,7 @@ footer {
     margin: 0 auto;
     padding: 0 10vw;
     /* width: 80vw; */
-    background-color: #1A1A1A;
+    background-color: #111111;
 }
 
 #project {
@@ -76,7 +102,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
 
-    border-top: 1px solid #DADADA;
+    /* border-top: 1px solid #DADADA; */
     padding: 10vh 0;
 }
 
