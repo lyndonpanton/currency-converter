@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (e) {
+    /* Use localStorage API to save last used from and to currency */
+
     // https://en.wikipedia.org/wiki/Template:Most_traded_currencies
     // https://www.trade-tariff.service.gov.uk/exchange_rates/view/2025-1
     const gbpExchangeRates = {
