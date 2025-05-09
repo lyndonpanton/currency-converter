@@ -17,8 +17,99 @@ body, html {
 }
 
 /* Header *********************************************************************/
+header {
+    width: 100vw;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
 
 /* Main *********************************************************************/
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#converter {
+
+}
+
+#value-from {
+
+}
+
+#currency-from {
+
+}
+
+#currency-to {
+
+}
+
+#convert-button {
+
+}
+
+#value-to {
+
+}
 
 /* Footer *********************************************************************/
+footer {
+    margin: 0 auto;
+    width: 80vw;
+}
 
+#project {
+
+}
+
+.project-list {
+
+}
+
+.project-list-item {
+
+}
+
+.project-list-item > a {
+
+}
+
+.project-list-heading {
+
+}
+
+#data {
+
+}
+
+#data-legal {
+
+}
+
+#data-legal > li {
+
+}
+
+#data-legal > li > a {
+    
+}
+
+#data-social {
+    
+}
+
+#data-social > li {
+
+}
+
+#data-social > li > a {
+
+}
+
+#copyright {
+
+}

@@ -88,7 +88,7 @@
                 <option value="ils">ILS</option>
             </select>
 
-            <input type="submit" value="Convert" />
+            <input type="submit" value="Convert" id="convert-button" />
         </form>
 
         <p id="value-to">---</p>
