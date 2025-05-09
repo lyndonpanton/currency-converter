@@ -29,6 +29,34 @@ document.addEventListener("DOMContentLoaded", function (e) {
             "czk": 30.4244
     };
 
+    const currencySymbols = {
+        "usd": "$",
+        "eur": "€",
+        "jpy": "¥",
+        "gbp": "£",
+        "cny": "¥",
+        "aud": "AU$",
+        "cad": "CA$",
+        "chf": "F",
+        "hkd": "HK$",
+        "sgp": "S$",
+        "sek": "kr",
+        "krw": "₩",
+        "nok": "NKr",
+        "nzd": "$",
+        "inr": "₹",
+        "mxn": "Mex$",
+        "twd": "NT$",
+        "zar": "R",
+        "brl": "R$",
+        "dkk": "kr.",
+        "pln": "zł",
+        "thb": "฿",
+        "ils": "₪",
+        "idr": "Rp",
+        "czk": "Kč",
+    }
+
     let output = document.getElementById("value-to");
     let converter = document.getElementById("converter");
     converter.addEventListener("submit", handleSubmission);
@@ -48,9 +76,10 @@ document.addEventListener("DOMContentLoaded", function (e) {
     function convertCurrency(currencyFrom, currencyTo, valueFrom) {
         let fromExchangeRate = gbpExchangeRates[currencyFrom];
         let toExchangeRate = gbpExchangeRates[currencyTo];
+        let toSymbol = currencySymbols[currencyTo];
 
         let exchangeResult = (toExchangeRate / fromExchangeRate) * valueFrom;
-        // Append relevant symbol
-        output.textContent = exchangeResult;
+        
+        output.textContent = toSymbol + exchangeResult;
     }
 });
