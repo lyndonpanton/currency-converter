@@ -29,6 +29,8 @@ relevant route on localhost:8000
 
 ## Features
 
+- Users can convert money from one currency to another
+
 ## Technology
 
 ### Development Tools
