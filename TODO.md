@@ -54,6 +54,6 @@ quickly
 - [x] State features of the project in [README.md](../README.md)
 - [x] Add list of technologies to [README.md](../README.md)
 - [ ] Add project to portfolio
-    - [ ] Link
+    - [x] Link
     - [ ] Screenshot
     - [ ] Upload to website
