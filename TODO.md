@@ -50,8 +50,9 @@ quickly
 
 ### Deployment
 
-- [ ] Add setup instructions to [README.md](../README.md)
-- [ ] State features of the project in [README.md](../README.md)
+- [x] Add setup instructions to [README.md](../README.md)
+- [x] State features of the project in [README.md](../README.md)
+- [x] Add list of technologies to [README.md](../README.md)
 - [ ] Add project to portfolio
     - [ ] Link
     - [ ] Screenshot
