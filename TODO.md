@@ -8,17 +8,17 @@ A list of tasks I need to complete for this project.
 
 ### Content
 
-- [ ] User should be able to see a history of recent currency conversions
+- [ ] User should be able to see history of recent currency conversions
 - [ ] Add an icon for switching between light and dark mode
 
 ### Styling
 
 - [ ] Digits after 2 decimal places in the output should be slightly faded
-- [ ] Project should be optimised for all screen sizes
+- [x] Project should be optimised for all screen sizes
     - [x] Desktop
     - [x] Laptop
-    - [ ] Tablet
-    - [ ] Phone
+    - [x] Tablet
+    - [x] Phone
 
 ### Interaction
 
