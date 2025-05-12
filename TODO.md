@@ -9,14 +9,14 @@ A list of tasks I need to complete for this project.
 ### Content
 
 - [ ] User should be able to see a history of recent currency conversions
-    - Add this to the right of converter on desktop screen sizes
 - [ ] Add an icon for switching between light and dark mode
 
 ### Styling
 
+- [ ] Digits after 2 decimal places in the output should be slightly faded
 - [ ] Project should be optimised for all screen sizes
     - [x] Desktop
-    - [ ] Laptop
+    - [x] Laptop
     - [ ] Tablet
     - [ ] Phone
 
@@ -24,6 +24,7 @@ A list of tasks I need to complete for this project.
 
 - [ ] Allow users to switch between the currency they are convert to and from
 quickly
+- [ ] Restrict output to 4 decimal places
 
 ### Validation
 
