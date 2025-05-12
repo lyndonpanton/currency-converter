@@ -23,9 +23,9 @@
     <script src=<?php echo "https://kit.fontawesome.com/" . API_KEY_FONTAWESOME . ".js"; ?> crossorigin="anonymous"></script>
     
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/laptop.css" />
+    <link rel="stylesheet" type="text/css" href="./css/tablet.css" />
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css" />
     <script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>

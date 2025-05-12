@@ -1,13 +1,53 @@
 @media screen and (max-width: 1440px) {
     /* Header *****************************************************************/
     h1 {
-        font-size: 2.5em;
+        margin-top: 1.5vh;
+        font-size: 2.6em;
     }
 
     /* Main *****************************************************************/
+    #description-main {
+        font-size: 1.8em;
+    }
 
+    #description-sub {
+        font-size: 1.1em;
+    }
+
+    #converter-input > * {
+        font-size: 1.4em;
+    }
+
+    #convert-button {
+        font-size: 1.1em;
+    }
+
+    #value-to {
+        font-size: 2.0em;
+    }
 
     /* Footer *****************************************************************/
+    footer {
+        padding: 0 5vw;
+    }
 
+    .project-list-heading {
+        
+    }
 
+    .project-list-item {
+        font-size: 1.1em;
+    }
+
+    #data-legal > li {
+        font-size: 1.1em;
+    }
+
+    #data-social > li {
+        font-size: 1.6em;
+    }
+
+    #copyright {
+        font-size: 1.3em;
+    }
 }
