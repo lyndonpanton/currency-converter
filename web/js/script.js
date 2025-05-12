@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
             "ils": "₪",
             "idr": "Rp",
             "czk": "Kč",
-    }
+    };
 
     let output = document.getElementById("value-to");
     let converter = document.getElementById("converter-form");
