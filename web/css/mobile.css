@@ -15,22 +15,51 @@
     }
 
     #converter {
+        padding-top: 4vh;
         padding-right: 2vw;
         padding-left: 2vw;
+        height: 50vh;
+    }
+
+    #converter-input {
+        display: block;
     }
 
     #converter-input > * {
+        display: block;
+
+        margin: 10px auto;
+        width: 90%;
+
         font-size: 0.9em;
     }
 
+    select {
+        padding-right: 1vw;
+        padding-left: 1vw;
+
+        width: 92% !important;
+    }
+
     #convert-button {
-        font-size: 0.6em;
+        float: none;
+
+        display: block;
+
+        margin: 0 auto;
+        width: 88%;
+
+        font-size: 0.8em;
     }
 
     #value-to {
-        margin-top: 7vh;
+        float: none;
 
-        font-size: 0.8em;
+        margin-top: 7vh;
+        width: 100%;
+
+        font-size: 1em;
+        text-align: center;
     }
 
     /* Footer *****************************************************************/
