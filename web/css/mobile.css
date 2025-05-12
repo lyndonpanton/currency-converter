@@ -1,3 +1,72 @@
 @media screen and (max-width: 767px) {
-    
+    /* Header *****************************************************************/
+    h1 {
+        margin-top: 2.4vh;
+        font-size: 1.5em;
+    }
+
+    /* Main *****************************************************************/
+    #description-main {
+        font-size: 1.1em;
+    }
+
+    #description-sub {
+        font-size: 0.8em;
+    }
+
+    #converter {
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    #converter-input > * {
+        font-size: 0.9em;
+    }
+
+    #convert-button {
+        font-size: 0.6em;
+    }
+
+    #value-to {
+        margin-top: 7vh;
+
+        font-size: 0.8em;
+    }
+
+    /* Footer *****************************************************************/
+    #project {
+        display: block;
+        text-align: center;
+    }
+
+    .project-list {
+        width: 100%;
+    }
+
+    .project-list-item {
+        font-size: 0.8em;
+    }
+
+    #data > #data-legal {
+        display: block;
+
+        text-align: center;
+    }
+
+    #data-legal > li {
+        margin-top: 4vh;
+        font-size: 0.8em;
+    }
+
+    #data > #data-social {
+        margin-top: 5vh;
+    }
+
+    #data-social > li {
+        font-size: 1.2em;
+    }
+
+    #copyright {
+        font-size: 0.8em;
+    }
 }
