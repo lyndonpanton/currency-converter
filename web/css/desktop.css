@@ -65,7 +65,8 @@ main {
 #converter {
     margin: 12vh 5vw 0;
     border-radius: 20px;
-    height: 30vh;
+    padding-top: 6vh;
+    height: 24vh;
 
     background-color: white;
 
@@ -73,10 +74,33 @@ main {
     text-align: center;
 }
 
+#converter-input {
+    /* position: relative;
+    top: 6vh; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border: none;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+#converter-input > * {
+    width: 31%;
+    height: 8vh;
+
+    font-size: 1.5em;
+}
+
 #value-from {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: textfield;
+
+    /* height: 50px; */
+    padding: 0 0 0 1vw;
 }
 
 #value-from::-webkit-outer-spin-button, #value-from::-webkit-inner-spin-button {
@@ -94,11 +118,25 @@ main {
 }
 
 #convert-button {
+    float: left;
 
+    margin-top: 5vh;
+    margin-left: 2vw;
+    width: 20%;
+    height: 6vh;
+    
+    font-size: 1.2em;
 }
 
 #value-to {
+    float: right;
 
+    margin-top: 5vh;
+    margin-right: 2vw;
+    width: 20%;
+    height: 6vh;
+    
+    font-size: 2.2em;
 }
 
 /* Footer *********************************************************************/
